@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="landing page"
+      content="landing page"
+    />
+    <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
+    <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
+   <link rel="stylesheet" id="custom-styles" href="./css/style.css" type="text/css" media="all">
+    <title>Loading...</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <div class="loader"></div>
+
+    <script>
+      function callOthers(){
+        document.querySelector('.non-show-queue').classList.toggle('non-show');
+      }
+    </script>
+
+    <!-- Google Translate -->		
+		<script type="text/javascript"> 
+			function googleTranslateElementInit() { 
+				new google.translate.TranslateElement(
+					{pageLanguage: 'en'}, 
+					'google_translate_element'
+				); 
+			} 
+		</script> 
+		  
+		<script type="text/javascript" src=
+	"https://translate.google.com/translate_a/element.js?
+			cb=googleTranslateElementInit">
+		</script> 
+
+    <div class="floating-bar" style="display: none">
+      <div class="non-show-queue" id="non-show" style="display:none;">
+        <div class="float-element"><a href="https://wa.me/+3197005034475" title="Send Whatsapp Messaage"><img src="/images/support/whatsapp.png" style="width: 50px; margin: 5px 0;"/></a></div>
+        <div class="float-element"><a href="mailto: contact@alidainvestment.com" title="Send Email"><img src="/images/support/support.png" style="width: 50px; margin: 5px 0;"/></a></div>
+      </div>
+      <div class="float-element" ><a href="javascript:void(0)" onclick="callOthers()"><img src="/images/support/support.png" style="width: 50px; margin: 5px 0;"/></a></div>
+    </div>
+
+
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/623f60202abe5b455fc1c8d3/1g05e4oak';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+  </body>
+</html>
